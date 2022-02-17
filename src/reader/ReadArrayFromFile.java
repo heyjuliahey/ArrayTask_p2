@@ -19,8 +19,7 @@ public class ReadArrayFromFile {
 
             } catch (FileNotFoundException e) {
                 throw new CustomException("File " + fileName + " not found " + e);
-            } catch
-            (IOException e) {
+            } catch (IOException e) {
                 throw new CustomException("Exception: " + e);
             }
             return customList;
