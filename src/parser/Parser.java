@@ -1,4 +1,4 @@
-package by.parser;
+package parser;
 import java.util.ArrayList;
 import java.util.List;
 import by.validator.*;
