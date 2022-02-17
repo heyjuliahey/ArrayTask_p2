@@ -19,11 +19,11 @@ public class Parser {
                     }
                 }
             }
-            int[] intNumbers = new int[customList.size()];
+            int[] arr = new int[customList.size()];
 
             for (int i = 0; i < intNumbers.length; i++) {
-                intNumbers[i] = customList.get(i);
+                arr[i] = customList.get(i);
             }
-            return intNumbers;
+            return arr;
         }
     }
